@@ -70,7 +70,7 @@ def main():
                 else:
                     print("No passwords stored\n")
             else:
-                print("Wrong password. You can't view your saved passwords.Please try again\n")
+                print("Access denied!! Wrong password. You cannot view your saved passwords.Please try again\n")
 if __name__ == "__main__":
     main()
  
