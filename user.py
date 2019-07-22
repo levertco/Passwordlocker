@@ -1,9 +1,8 @@
 class User:
-# levert
     def __init__(self,login,password):
         self.login = login 
         self.password = password
-
+# Levert
     def user_exists(self,password):
         if self.password == password:
             return True
