@@ -1,3 +1,4 @@
+
 def main():                                                                                   
     print("PASSWORD LOCKER\n")
     print("Sign up/create your new password locker account.","\n")
@@ -55,3 +56,14 @@ def main():
                 print("Wrong password. You can't view your saved passwords.Please try again\n")
 if __name__ == "__main__":
     main()
+    
+def generate_password(length):
+    return Password.generate_pass(length)
+def view_passwords():
+    return Password.display_passwords()
+def delete_password(acc):
+    Password.delete_password(acc)
+def password_exists(acc):
+    return Password.password_exist(acc)
+
+
