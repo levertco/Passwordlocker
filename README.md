@@ -5,7 +5,13 @@ Levert Ouma
 
 ### Description
  An application that allows a user to generate and store passwords for various accounts.They can also view and delete the passwords they created.
- 
+
+
+
+### Known Bug
+There are currently no known bugs detected.
+Incase you encounter any email me: levertco@gmail.com 
+
 ### License
 
 MIT License
