@@ -1,5 +1,5 @@
 from random import randint
-
+#class Levert
 class Password:
     passwords = []
     def __init__(self,account,username,password):
@@ -15,7 +15,7 @@ class Password:
             item = items[randint(0,len(items) -1)]
             new_pass += item
         return new_pass
-    @classmethod
+    @classmethod#levert
     def display_passwords(cls):
         return cls.passwords    
     @classmethod

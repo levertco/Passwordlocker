@@ -1,18 +1,20 @@
 
 from password import Password
+# import levert
 from user import User
+# import Levert
 import getpass
-   
+  
 def new_user(login,password):
     return User(login,password)
 def add_password(account,username,password):
     new_pass = Password(account,username,password)
     new_pass.save_pass()   
-def generate_password(length):
+def generate_password(length):# genarate Levert
     return Password.generate_pass(length)
 def view_passwords():
     return Password.display_passwords()
-def delete_password(acc):
+def delete_password(acc):#levert
     Password.delete_password(acc)
 def password_exists(acc):
     return Password.password_exist(acc)
@@ -24,7 +26,7 @@ def main():
     new_user(user_name,user_pass)
     print(f"Welcome {user_name}\n")
     print("What would you like to do?\n")
-
+#Levert
     while True:
         command = input("Input 'generate' to  generate a password, 'add' to add an existing password, 'del' to delete a password, 'view' to view all your passwords, 'exit' to leave :( \n")
         if command == "add":
@@ -61,7 +63,7 @@ def main():
         elif command == "view":
             pass_word = getpass.getpass("Enter your password?\n")
             if pass_word == user_pass:
-                if view_passwords():
+                if view_passwords():#levert
                     for password in view_passwords():
                         print("-"*6,view_passwords().index(password)+1,"-"*6,"\n")
                         print(f"Account --> {password.account}\n")
