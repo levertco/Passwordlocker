@@ -4,11 +4,13 @@
 Levert Ouma
 
 ### Description
- An application that allows a user to generate and store passwords for various accounts.They can also view and delete the passwords they created.
+An application that allows a user to generate and store passwords for various accounts.They can also view and delete the passwords they created.
  
  
  
- 
+### Tech Used
+1. Python
+2. CLI
  
 ## Set Up/prerequisites
 The user will require git and python3.6+ installed in their machine.
