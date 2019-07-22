@@ -57,6 +57,11 @@ def main():
 if __name__ == "__main__":
     main()
     
+def new_user(login,password):
+    return User(login,password)
+def add_password(account,username,password):
+    new_pass = Password(account,username,password)
+    new_pass.save_pass()   
 def generate_password(length):
     return Password.generate_pass(length)
 def view_passwords():
