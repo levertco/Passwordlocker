@@ -1,6 +1,6 @@
 # PASSWORD LOCKER
 
-### Author
+## Author
 Levert Ouma
 
 ### Description
