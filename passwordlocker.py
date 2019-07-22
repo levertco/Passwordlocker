@@ -19,8 +19,9 @@ def delete_password(acc):#levert
 def password_exists(acc):
     return Password.password_exist(acc)
 def main():                                                                                   
-    print("PASSWORD LOCKER\n")
+    print("WELCOME TO LEVERT'S PASSWORD LOCKER\n")
     print("Sign up/create your new password locker account.","\n")
+    print("NB:Dont froget your password locker account credentials cause it will be needed to help you retreive passwords from your password locker app.","\n")
     user_name = input("User Name\n")
     user_pass = getpass.getpass('Password:\n')
     new_user(user_name,user_pass)
