@@ -6,7 +6,9 @@ Levert Ouma
 ### Description
  An application that allows a user to generate and store passwords for various accounts.They can also view and delete the passwords they created.
 
-
+### Installation
+To access this application on your command line you need to clone it 
+`git clone https://github.com/levertco/Passwordlocker.git`
 
 ### Known Bug
 There are currently no known bugs detected.
