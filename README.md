@@ -46,7 +46,7 @@ To access this application on your command line you need to clone it
 ### Known Bug
 There are currently no known bugs detected.
 Incase you encounter any email me: levertco@gmail.com 
-![ScreenShot](https://raw.github.com/{levertco}/{Passwordlocker}/{master}/{passwordlockertests.jpg})
+![ScreenShot](https://raw.github.com/{levertco}/{Passwordlocker}/blob/{master}/{passwordlockertests.jpg})
 ### License
 
 MIT License
