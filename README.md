@@ -5,6 +5,17 @@ Levert Ouma
 
 ### Description
  An application that allows a user to generate and store passwords for various accounts.They can also view and delete the passwords they created.
+ 
+ 
+ 
+ 
+ 
+## Set Up/prerequisites
+The user will require git and python3.6+ installed in their machine.
+To install these two, you can use the following commands
+
+#python
+$ sudo apt-get install python
 
 ### Installation
 To access this application on your command line you need to clone it 
