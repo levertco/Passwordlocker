@@ -1,4 +1,8 @@
 
+from password import Password
+from user import User
+import getpass
+
 def main():                                                                                   
     print("PASSWORD LOCKER\n")
     print("Sign up/create your new password locker account.","\n")
