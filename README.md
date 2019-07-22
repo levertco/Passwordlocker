@@ -19,6 +19,15 @@ An application that allows a user to generate and store passwords for various ac
 
 6. As a user, I want to delete a credentials account that I no longer need in the application.
  
+### How to Use
+1. As soon as the user enters the application, he/she will be prompted to enter their name and password which will then be used to access their stored passwords.
+
+2. The user will have an option of..
+    1. Adding a new password.
+    2. Generating a new password.
+    3. Viewing their stored passwords.
+    4. Deleting a stored password.
+ 
 ### Tech Used
 1. Python
 2. CLI
