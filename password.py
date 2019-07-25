@@ -17,7 +17,7 @@ class Password:
         Password.passwords.append(self)
     def generate_pass(length):
       """
-        This function generates passwords
+        This function generates Levert password locker app passwords
       """
         items = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","4","5","7","8","9","0","_","-",]
         new_pass = ""
