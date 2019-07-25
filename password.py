@@ -12,7 +12,7 @@ class Password:
         self.password = password
     def save_pass(self):
       """
-        This is a function that will add the user's password into the passwords array
+        This is a function that will add the Levert password locker user's password into the passwords array
       """
         Password.passwords.append(self)
     def generate_pass(length):
