@@ -6,15 +6,36 @@ from user import User
 import getpass
   
 def new_user(login,password):
+    """
+    This will create a new user everytime they login
+    """
     return User(login,password)
 def add_password(account,username,password):
+    """
+    This function add's a new password to the passwords list
+    """
     new_pass = Password(account,username,password)
     new_pass.save_pass()   
 def generate_password(length):# genarate Levert
+    """
+    This will create a random password for the user
+    Args:
+        length - user's preferred length for the password
+    Return:
+        It will return a random password containing the specified preferred length
+    """
     return Password.generate_pass(length)
 def view_passwords():
+    """
+    This function enables the user(Levert) to view all the passwords
+    """
     return Password.display_passwords()
 def delete_password(acc):#levert
+    """
+    This function delete's the password
+    Args:
+        acc - the password of the account the user wants to delete
+    """
     Password.delete_password(acc)
 def password_exists(acc):
     return Password.password_exist(acc)
