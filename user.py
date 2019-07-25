@@ -13,7 +13,7 @@ class User:
     """Levert Co
     This enables you to enter the password you created this account with and if it exits it will show you your stored password.Levert
     Args:
-    user's signup password
+    Password Lockers user's signup password
     Return:
     boolean-the data type that has one of two possible values
     """
